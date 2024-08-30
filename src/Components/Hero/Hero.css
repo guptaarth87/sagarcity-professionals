@@ -50,7 +50,10 @@
     cursor: pointer;
   }
   
-
+  .pos_button:hover {
+    /* background: linear-gradient(90deg,rgb(71, 107, 157)  0%, rgb(8, 33, 66)  100%); */
+    color: black !important;  
+}
   
   .pos_button:focus {
     outline: none;

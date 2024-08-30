@@ -1,5 +1,6 @@
 import React from 'react'
 import contact from './contact.svg';
+import ContactForm from '../Components/ContactForm/ContactForm';
 
 
 export default function Contactus() {
@@ -9,10 +10,11 @@ export default function Contactus() {
       <br></br>
       <div className="container ">
         <h1 className='alignCentre mt-4 '>Get In Touch With Us</h1>
+        <ContactForm/>
     <div className="row m-2">
     <div className="col-lg-7">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.5033388570578!2d75.8080932!3d22.635014599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fbe28cb4b0bf%3A0xf8969bb46198c6f2!2sSai%20Vihar%20Colony%2C%20Rau%2C%20Indore%2C%20Madhya%20Pradesh%20453331!5e0!3m2!1sen!2sin!4v1707933614282!5m2!1sen!2sin"
-        className='col-12' height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        className='col-12' height="500"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
                        
         <div className=" card col-lg-4 p-3 m-1 position_style_card">
@@ -27,7 +29,7 @@ export default function Contactus() {
         </div>
     </div>
       </div>
-     
+       
       </>
   )
 }

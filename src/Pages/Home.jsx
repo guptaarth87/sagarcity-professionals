@@ -5,6 +5,7 @@ import EmailDiv from '../Components/PopUp/EmailDiv'
 import OurExpertise from '../Components/OurExpertise/OurExpertise'
 import Vision from '../Components/Vision/Vision'
 import Faqs from '../Components/FAQs/Faqs'
+import ContactForm from '../Components/ContactForm/ContactForm'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Overview/>
         <OurExpertise/>
         <Vision/>
+        <ContactForm/>
         <Faqs/>
     </div>
 

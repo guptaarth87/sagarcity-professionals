@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faInfoCircle, faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faInfoCircle, faEnvelope, faBriefcase,faFileUpload } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -51,6 +51,12 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/contactus" onClick={toggleMenu}>
                 <FontAwesomeIcon icon={faEnvelope} /> Contact Us
+                <span className="underline"></span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/uploadcv" onClick={toggleMenu}>
+                <FontAwesomeIcon icon={faFileUpload} /> Upload CV/Resume
                 <span className="underline"></span>
               </Link>
             </li>

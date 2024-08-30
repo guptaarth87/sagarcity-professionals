@@ -1,0 +1,122 @@
+.contactus-container {
+    /* background: linear-gradient(90deg, #082142, #476b9d); */
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .form-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .form-left {
+    flex: 1;
+    display: none;
+  }
+  
+  .form-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .form-right {
+    flex: 1.5;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-logo {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #082142;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+    color: #082142;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+  }
+  
+  .form-control:focus {
+    border-color: #082142;
+    box-shadow: 0 0 5px rgba(8, 33, 66, 0.2);
+    outline: none;
+  }
+  
+  .btn-submit {
+    background-color: #ff8000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-submit:hover {
+    background-color: #cc6600;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #082142;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .form-card {
+      flex-direction: column;
+    }
+  
+    .form-left {
+      display: block;
+    }
+  
+    .form-image {
+      height: 250px;
+      object-fit: cover;
+    }
+  
+    .form-right {
+      padding: 20px;
+    }
+  }
+  

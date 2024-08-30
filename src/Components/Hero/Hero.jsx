@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="row ">
               <div className="col-lg-6 col-md-6 col-sm-12">
               <h3 className=" white starter_txt">
-              Unlock the power of innovation with our <span className="highlight">seamless</span> code and insightful analytics,
+              Unlock the power of innovation with our seamless code and insightful analytics,
               raising the bar for professional-level services.
               <br></br><br></br>
               <Link className="pos_button theme-grad" to="#services">See Services</Link>
