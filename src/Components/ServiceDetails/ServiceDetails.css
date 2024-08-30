@@ -1,0 +1,16 @@
+/* ServiceDetails.css */
+.service-details-section {
+    padding: 60px 0;
+  }
+  
+  .service-details-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .service-details-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  

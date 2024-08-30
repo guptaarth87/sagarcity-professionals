@@ -1,0 +1,33 @@
+/* WhyChooseUs.css */
+.why-choose-us-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .why-choose-us-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  

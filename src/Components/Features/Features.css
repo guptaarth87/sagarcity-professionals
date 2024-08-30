@@ -1,0 +1,21 @@
+/* Add this to your existing CSS or a new file */
+.feature-section {
+    padding: 40px 0;
+  }
+  
+  .feature-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .feature-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feature-item {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
