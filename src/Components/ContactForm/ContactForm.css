@@ -40,23 +40,27 @@
     margin-bottom: 20px;
   }
   
-  .form-title {
+  .form-titlex {
     font-size: 24px;
     font-weight: 600;
     color: #082142;
     margin-bottom: 20px;
   }
   
-  .form-group {
+  .form-groupx {
     margin-bottom: 15px;
   }
   
-  .form-group label {
+  .form-groupx label {
     font-weight: 500;
     color: #082142;
   }
+
+  .clr{
+    color: #082142;
+  }
   
-  .form-control {
+  .form-controlx {
     width: 100%;
     padding: 10px 15px;
     border-radius: 5px;

@@ -42,13 +42,13 @@ export default function ContactForm() {
         </div>
         <div className="form-right">
           {/* <img src={Logo} alt="Logo" className="form-logo" /> */}
-          <h2 className="form-title">Contact Us</h2>
+          <h2 className="form-titlex ">Contact Us</h2>
           <form onSubmit={handleSubmit}>
-            <div className="form-group">
-              <label htmlFor="name">Name*</label>
+            <div className="form-groupx">
+              <label htmlFor="name ">Name*</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-controlx"
                 id="name"
                 name="name"
                 value={user.name}
@@ -56,11 +56,11 @@ export default function ContactForm() {
                 required
               />
             </div>
-            <div className="form-group">
-              <label htmlFor="email">Email*</label>
+            <div className="form-groupx">
+              <label htmlFor="email" className=''>Email*</label>
               <input
                 type="email"
-                className="form-control"
+                className="form-controlx"
                 id="email"
                 name="email"
                 value={user.email}
@@ -68,11 +68,11 @@ export default function ContactForm() {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="form-groupx">
               <label htmlFor="phone_no">Phone No.</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-controlx"
                 id="phone_no"
                 name="phone_no"
                 value={user.phone_no}
@@ -80,10 +80,10 @@ export default function ContactForm() {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="form-groupx">
               <label htmlFor="query">Leave a Query</label>
               <textarea
-                className="form-control"
+                className="form-controlx"
                 id="query"
                 name="query"
                 value={user.query}
