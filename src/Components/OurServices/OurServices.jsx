@@ -1,42 +1,11 @@
 import React from "react";
 import "./OurServices.css";
 import { useNavigate } from 'react-router-dom';
+import { services } from "../../TextData";
 
 
 const OurServices = () => {
-  const services = [
-    {
-      title: "service1",
-      description: "Build dynamic and responsive websites with modern technologies.",
-      image: "https://via.placeholder.com/350x200",
-    },
-    {
-      title: "Mobile App Development",
-      description: "Create user-friendly mobile applications for Android and iOS.",
-      image: "https://via.placeholder.com/350x200",
-    },
-    {
-      title: "E-Commerce Solutions",
-      description: "Launch and manage your online store with our e-commerce services.",
-      image: "https://via.placeholder.com/350x200",
-    },
-    {
-      title: "Web Development",
-      description: "Build dynamic and responsive websites with modern technologies.",
-      image: "https://via.placeholder.com/350x200",
-    },
-    {
-      title: "Mobile App Development",
-      description: "Create user-friendly mobile applications for Android and iOS.",
-      image: "https://via.placeholder.com/350x200",
-    },
-    {
-      title: "E-Commerce Solutions",
-      description: "Launch and manage your online store with our e-commerce services.",
-      image: "https://via.placeholder.com/350x200",
-    }
-  ];
-
+  
   const navigate = useNavigate();
 
   // const handleClick = () => {

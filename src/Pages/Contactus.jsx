@@ -1,6 +1,7 @@
 import React from 'react'
 import contact from './contact.svg';
 import ContactForm from '../Components/ContactForm/ContactForm';
+import { ContactInfo } from '../TextData';
 
 
 export default function Contactus() {
@@ -25,7 +26,7 @@ export default function Contactus() {
            <div className='fnt-description'>20, New Sai Vihar Colony, Rau , 45331, dist. Indore.</div>
            <br></br>
            <h4 className=''>Phone No </h4>
-           <div className='fnt-description'>+91 1212121212</div>
+           <div className='fnt-description'>{ContactInfo.phoneNo}</div>
         </div>
     </div>
       </div>

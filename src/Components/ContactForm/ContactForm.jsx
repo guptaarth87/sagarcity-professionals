@@ -6,7 +6,7 @@ import { db } from '../../_helpers/FirebaseConfig';
 import { collection, addDoc } from 'firebase/firestore';
 
 export default function ContactForm() {
-  const usersCollectionRef = collection(db, 'clientsData');
+  const usersCollectionRef = collection(db, 'Queries');
 
   const [user, setUser] = useState({
     name: '',
@@ -26,7 +26,7 @@ export default function ContactForm() {
     const data = {
       Name: user.name,
       Email: user.email,
-      Phone_no: user.phone_no,
+      PhoneNo: user.phone_no,
       Query: user.query
     };
     await addDoc(usersCollectionRef, data);

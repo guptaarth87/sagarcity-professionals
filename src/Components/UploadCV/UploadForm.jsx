@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './UploadForm.css';
-// import { storage, db } from '../../_helpers/FirebaseConfig';
-// import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
-// import { collection, addDoc } from 'firebase/firestore';
+import { storage, db } from '../../_helpers/FirebaseConfig';
+import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
+import { collection, addDoc } from 'firebase/firestore';
 
 export default function UploadForm() {
   const [formData, setFormData] = useState({
