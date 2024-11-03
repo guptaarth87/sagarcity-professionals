@@ -31,8 +31,8 @@ function Footer(){
                 <div className="col-lg-4 col-md-6">
                     <h5 className="mb-3 white">Social Media</h5>
                     <ul className="list-unstyled text-muted">
-                        <li><a className="link white" href="#">Facebook</a></li>
-                        <li><a className="link white" href="https://www.instagram.com/datasaltinsta/?igshid=MzRlODBiNWFlZA%3D%3D"  target="_blank">Instagram</a></li>
+                        {/* <li><a className="link white" href="#">Facebook</a></li> */}
+                        {/* <li><a className="link white" href="https://www.instagram.com/datasaltinsta/?igshid=MzRlODBiNWFlZA%3D%3D"  target="_blank">Instagram</a></li> */}
                         <li><a className="link white" href={ContactInfo.linkedIn}>Linkedin</a></li>
                         
                     </ul>
@@ -42,7 +42,7 @@ function Footer(){
                     <ul className="list-unstyled text-muted">
                         <li className='white'>Phone No : {ContactInfo.phoneNo}</li>
                         <li className='white'>Email : {ContactInfo.email}</li>
-                        <li className='white'>Instagram : @sagarcity</li>
+                        <li className='white'>Instagram : @sagacity</li>
                         
                     </ul>
                 </div>
