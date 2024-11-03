@@ -8,7 +8,7 @@ const BrochureDownload = () => {
     // const fileUrl = 'brochure.pdf';
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'brochure.pdf';
+    link.download = 'Brochure.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
