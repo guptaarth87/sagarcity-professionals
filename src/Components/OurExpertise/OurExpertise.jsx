@@ -1,6 +1,6 @@
 import React from 'react'
-import hotelbooking from './hotelbooking.jpg';
-import digital_card from './digital_card.svg';
+import good_team from './good_team.svg';
+import freinds from './freinds.svg';
 
 export default function OurExpertise() {
   return (
@@ -10,25 +10,33 @@ export default function OurExpertise() {
         <div className="row">
         <div className="col-lg-6 col-md-5 col-sm-12 m-3 description">
             <br></br>
-            <h3>1. Digital card</h3>
+            <h3>1. Talent Acquisition</h3>
             <br></br>
-            In a vibrant city where innovation meets tradition, the bustling marketplace thrives with energy and creativity. Artisans showcase their unique crafts, while tech enthusiasts explore cutting-edge gadgets. Amidst this dynamic fusion, people from diverse backgrounds come together, creating a melting pot of culture, ideas, and opportunity.<span style={{color:"#18345A"}}><strong> 14,999 INR</strong></span>.
+            In-Depth Candidate Assessments: We conduct rigorous assessments and interviews to ensure
+candidates not only possess the required skills but also fit well within your organizational
+culture.
             <br></br><br></br>       
-       Elevate your online presence and streamline operations with our feature-rich solution. Embrace the future of digital transformation with our affordable and dynamic website package!
+            Expansive Talent Network: Our extensive network and innovative sourcing techniques allow
+us to tap into a diverse pool of candidates, providing you with top talent that meets your
+specific needs.
+
        <br></br><br></br>
         </div>
-        <img src={digital_card} className="col-lg-4 col-md-5 col-sm-12 m-3"/>
+        <img src={freinds} className="col-lg-4 col-md-5 col-sm-12 m-3"/>
     </div>
     <div className="row">
-    <img src={hotelbooking} className="col-lg-4 col-md-5 col-sm-12 m-3"/>
+    <img src={good_team} className="col-lg-4 col-md-5 col-sm-12 m-3"/>
     <div className="col-lg-6 col-md-5 col-sm-12 m-3 description">
             <br></br>
-            <h3>2. Personalised booking website</h3>
+            <h3>2. Compliance & Regulatory Support</h3>
             <br></br>
-            In a vibrant city where innovation meets tradition, the bustling marketplace thrives with energy and creativity. Artisans showcase their unique crafts, while tech enthusiasts explore cutting-edge gadgets. Amidst this dynamic fusion, people from diverse backgrounds come together, creating a melting pot of culture, ideas, and opportunity.<span style={{color:"#18345A"}}><strong> 14,999 INR</strong></span>.
-          <br></br><br></br>
-          In a vibrant city where innovation meets tradition, the bustling marketplace thrives with energy and creativity.           <br></br><br></br>
-        </div>
+            Proactive Compliance Audits: Our team conducts regular audits to identify potential
+compliance risks, helping you stay ahead of regulatory changes and avoid penalties.
+
+              <br></br><br></br>
+              Tailored Compliance Solutions: We develop compliance strategies specific to your industry
+              and organization, ensuring you meet all legal requirements without unnecessary complexity.
+         </div>
         </div>
      </div>
    </>

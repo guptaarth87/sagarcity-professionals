@@ -27,7 +27,8 @@ export default function ContactForm() {
       Name: user.name,
       Email: user.email,
       PhoneNo: user.phone_no,
-      Query: user.query
+      Query: user.query,
+      createdAt: new Date().toLocaleString()
     };
     await addDoc(usersCollectionRef, data);
     window.alert('Thank you for contacting us! We will get back to you soon.');

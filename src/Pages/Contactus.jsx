@@ -23,7 +23,7 @@ export default function Contactus() {
            <br></br>
            <img src={contact}  className='img_control_hidden col-lg-6 col-sm-2'/>
            <h4 className=''>Address</h4>
-           <div className='fnt-description'>20, New Sai Vihar Colony, Rau , 45331, dist. Indore.</div>
+           <div className='fnt-description'>Regd. Office: 4B Maa Padmavati Residency, Indore, MP</div>
            <br></br>
            <h4 className=''>Phone No </h4>
            <div className='fnt-description'>{ContactInfo.phoneNo}</div>

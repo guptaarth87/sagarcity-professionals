@@ -12,10 +12,11 @@ export default function Overview() {
     <div className="row">
         <div className="col-lg-6 col-md-5 col-sm-12 m-3 description">
             <br></br><br></br>
-        We provide diverse web solutions designed to empower businesses in the digital age. 
-       <br></br><br></br>       
-        With our expertise and passion for web development and other services, we help clients establish a strong online presence,
-         drive engagement, and achieve their unique goals.
+            Our services include end-to-end recruitment, ensuring the right talent aligns with your
+company’s vision.
+ <br></br><br></br>       
+ We specialize in talent management, employee engagement, and HR strategy, helping
+ businesses build strong, motivated teams.
        <br></br><br></br>
         </div>
         <img src={planning} className="col-lg-4 col-md-5 col-sm-12 m-3"/>
@@ -24,11 +25,13 @@ export default function Overview() {
     <img src={analytics} className="col-lg-4 col-md-5 col-sm-12 m-3"/>
     <div className="col-lg-6 col-md-5 col-sm-12 m-3 description">
             <br></br><br></br>
-            At our core, we believe in the transformative power of the web.
-            Our team of experienced web developers, designers, and digital strategists work collaboratively to create innovative, user-centric web solutions that elevate brands and deliver exceptional experiences.
+            With expertise in HR compliance, training, and development, we ensure your workforce
+remains skilled and up-to-date with industry standards.
           <br></br><br></br>
-            From dynamic websites to web applications and content management systems, we have the skills and knowledge to bring your vision to life.
-
+          Our consultancy extends to performance management, policy formulation, and
+leadership development, all tailored to your unique needs. Partner with Sagacity
+Professionals for expert guidance, seamless HR processes, and a people-centric
+approach to business growth.
        <br></br><br></br>
         </div>
         </div>

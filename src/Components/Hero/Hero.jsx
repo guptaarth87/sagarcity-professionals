@@ -13,10 +13,11 @@ export default function Hero() {
               <h3 className=" white starter_txt">
               <br></br>
               <br></br>
-              Unlock the power of innovation with our seamless code and insightful analytics,
-              raising the bar for professional-level services.
+              Sagacity Professionals is a leading HR consulting firm dedicated to providing
+customized solutions that drive organizational success.
+
               <br></br><br></br>
-              <Link className="pos_button theme-grad" to="#services">See Services</Link>
+              <Link className="pos_button theme-grad" to="/services">See Services</Link>
               </h3>
               <br></br>
               </div>

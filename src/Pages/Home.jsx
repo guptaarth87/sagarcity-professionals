@@ -17,7 +17,7 @@ export default function Home() {
         <OurExpertise/>
         <Vision/>
         <ContactForm/>
-        <Faqs/>
+        {/* <Faqs/> */}
     </div>
 
         

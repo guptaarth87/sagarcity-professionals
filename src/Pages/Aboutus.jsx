@@ -6,7 +6,7 @@ import TeamSection from '../Components/TeamSection/TeamSection'
 export default function Aboutus() {
   return (
     <>
-    <HeroSection/>
+    {/* <HeroSection/> */}
     <AboutSection/>
     <TeamSection/>
     </>

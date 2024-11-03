@@ -3,20 +3,21 @@ import "./TeamSection.css";
 
 const teamMembers = [
   {
-    name: "John Doe",
+    name: "Mrs. Ruchi Yadav",
     position: "CEO & Founder",
     image: "https://via.placeholder.com/350x300",
-  },
-  {
-    name: "Jane Smith",
-    position: "Lead Developer",
-    image: "https://via.placeholder.com/350x300",
-  },
-  {
-    name: "Michael Johnson",
-    position: "Project Manager",
-    image: "https://via.placeholder.com/350x300",
-  },
+  }
+    // ,
+  // {
+  //   name: "Jane Smith",
+  //   position: "Lead Developer",
+  //   image: "https://via.placeholder.com/350x300",
+  // },
+  // {
+  //   name: "Michael Johnson",
+  //   position: "Project Manager",
+  //   image: "https://via.placeholder.com/350x300",
+  // },
 ];
 
 const TeamSection = () => {

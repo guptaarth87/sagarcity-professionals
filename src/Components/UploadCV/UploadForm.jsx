@@ -9,6 +9,7 @@ export default function UploadForm() {
     email: '',
     phone: '',
     cv: null,
+
   });
 
   const [uploadProgress, setUploadProgress] = useState(0);
@@ -56,6 +57,7 @@ export default function UploadForm() {
           email: formData.email,
           phone: formData.phone,
           cvURL: downloadURL,
+          createdAt: new Date().toLocaleString()
         });
 
         alert('CV uploaded successfully');
@@ -70,6 +72,9 @@ export default function UploadForm() {
   };
 
   return (
+    <>
+    <br></br>
+    <br></br>
     <div className="upload-form-container theme-grad">
       <h2 className="form-title">Upload Your CV</h2>
       <form onSubmit={handleSubmit}>
@@ -116,5 +121,6 @@ export default function UploadForm() {
         </button>
       </form>
     </div>
+    </>
   );
 }

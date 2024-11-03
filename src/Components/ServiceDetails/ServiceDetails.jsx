@@ -2,7 +2,7 @@
 import React from "react";
 import "./ServiceDetails.css";
 
-const ServiceDetails = ({ title, description }) => {
+const ServiceDetails = ({ title, description , Img }) => {
   return (
     <div className="service-details-section">
       <div className="container">
@@ -13,7 +13,7 @@ const ServiceDetails = ({ title, description }) => {
           </div>
           <div className="col-md-6">
             <img
-              src="https://via.placeholder.com/600x400"
+              src={Img}
               alt="Service Image"
               className="img-fluid rounded"
             />

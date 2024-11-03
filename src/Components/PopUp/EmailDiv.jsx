@@ -31,7 +31,8 @@ export default function EmailDiv() {
       // Process the email submission here
       const data = {
         'Email':email,
-        'PhoneNo': phoneNo
+        'PhoneNo': phoneNo,
+        createdAt: new Date().toLocaleString()
       }
       await addDoc(usersCollectionRef,data);
       window.alert("We will contact you soon!");

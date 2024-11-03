@@ -26,7 +26,7 @@ const OurServices = () => {
                 <h5 className="service-card-title">{service.title}</h5>
                 <p className="service-card-text">{service.description}</p>
                 <button className="btn theme-grad service-btn" onClick={()=>navigate(`/servicedetails?service=${service.title}`)}>Know More</button>
-                <button className="btn btn-outline-secondary service-btn">Contact Us</button>
+                <button className="btn btn-outline-secondary service-btn" onClick={()=>navigate('/contactus')}>Contact Us</button>
               </div>
             </div>
           </div>

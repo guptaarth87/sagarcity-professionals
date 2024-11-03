@@ -22,7 +22,7 @@ export default function DetailsPage() {
 
   return (
     <>
-    <ServiceDetails title={service.title} description={service.description} />
+    <ServiceDetails title={service.title} description={service.description} Img={service.image} />
     <Features features={service.features} />
     <WhyChooseUs/>
     </>

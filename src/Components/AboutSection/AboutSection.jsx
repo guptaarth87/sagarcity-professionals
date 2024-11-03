@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutSection.css";
 import { AboutUs } from "../../TextData";
+import teamwork from '../../Assets/teamwork.svg';
 
 const AboutSection = () => {
   return (
@@ -9,7 +10,7 @@ const AboutSection = () => {
         <div className="row">
           <div className="col-md-6">
             <img
-              src="https://via.placeholder.com/600x400"
+              src={teamwork}
               alt="About Us Image"
               className="img-fluid rounded"
             />

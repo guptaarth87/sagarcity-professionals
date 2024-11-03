@@ -13,9 +13,9 @@ function Footer(){
        
             <div className="row gy-4 gx-5">
                 <div className="col-lg-4 col-md-6">
-                    <h5 className="h1 white">Sagarcity Professionals </h5>
+                    <h5 className="h1 white">{ContactInfo.name} </h5>
                     <p className="small white subhead">{additionalText.tagLine1}</p>
-                    <p className="small white mb-0">&copy; Copyrights. All rights reserved. Sagarcity Professionals</p>
+                    <p className="small white mb-0">&copy; Copyrights. All rights reserved. {ContactInfo.name}</p>
                 </div>
                 <div className="subdiv col-lg-7 theme-grad">
                 <div className="row">

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faInfoCircle, faEnvelope, faBriefcase,faFileUpload } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
+import Logo from '../../Assets/sagacitylogo.jpeg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
       <div className="container">
         {/* Logo */}
         <Link className="navbar-brand" to="/">
-          <img src="https://via.placeholder.com/150x50" alt="Logo" className="logo" />
+          <img src={Logo} alt="Logo" className="logo" />
         </Link>
 
         {/* Navbar Toggle for Mobile */}
