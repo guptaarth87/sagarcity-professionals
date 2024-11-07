@@ -15,10 +15,7 @@ export default function Vision() {
             <br></br>
            
             <p className="card-text fnt-description">
-              Our mission: Tech-driven community event planning, user-friendly
-              experiences, secure transactions, impactful volunteer matching.
-              Inspiring collective action for lasting impact in conservation,
-              education, and hunger.
+              Our mission: To empower businesses by providing strategic HR solutions that align with their goals, enhance operational efficiency, and drive sustainable growth. We aim to be a trusted partner, delivering quality HR services that simplify processes, attract top talent, and foster a supportive workplace culture.
             </p>
           </div>
         </div>
@@ -29,23 +26,31 @@ export default function Vision() {
             <br></br>
             
             <p className="card-text fnt-description">
-              Building a platform connecting individuals, donors, and organizers
-              for transparent and efficient community initiatives. Empowering
-              through plantation, education, and hunger events. Fostering
-              collaboration for positive change.
+            To be a leading HR outsourcing firm known for our integrity, innovation, and excellence, transforming businesses through people-centered, impactful HR practices. We envision a future where every organization we partner with thrives through empowered, engaged, and effective workforces.
+
             </p>
           </div>
         </div>
-        <div className="card p-4 col-lg-3 col-md-5 col-sm-12 ">
+        <div className="card p-4 col-lg-5 col-md-5 col-sm-12 ">
           <img className="card-img-top" src={Longterm} alt="Card image cap" />
           <div className="card-body">
-            <h3 className="card-title ">Longterm</h3>
+            <h3 className="card-title ">Values</h3>
             <br></br>
             
             <p className="card-text fnt-description">
-              Becoming the premier platform for positive societal impact through
-              collaboration, innovation, and transparency. Driving sustainable
-              community development for a lasting legacy.
+            1. Integrity – We operate with transparency, honesty, and ethical practices, earning the trust of our clients and candidates alike.
+             <br></br>
+  
+2. Excellence – We strive for the highest standards in every service, bringing quality, reliability, and a proactive approach to every engagement.
+
+<br></br>
+3. Client-Centricity – Our success is driven by our clients’ success. We are committed to understanding their unique needs and tailoring solutions that add measurable value.
+<br></br>
+
+4. Continuous Improvement – We believe in learning, evolving, and staying ahead of industry trends to deliver innovative solutions that meet modern HR challenges.
+<br></br>
+
+5. People-First – We champion respect, inclusivity, and collaboration, believing that a supportive environment leads to positive outcomes for our team, our clients, and their employees.
             </p>
           </div>
         </div>
