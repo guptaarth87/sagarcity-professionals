@@ -40,7 +40,7 @@ function Footer(){
                 <div className="col-lg-4 col-md-6 ">
                     <h5 className="mb-3 white">Contact info</h5>
                     <ul className="list-unstyled text-muted">
-                        <li className='white'>Phone No : {ContactInfo.phoneNo}</li>
+                        <li className='white'>Email : sagacityprofessionals@outlook.com</li>
                         <li className='white'>Email : {ContactInfo.email}</li>
                         <li className='white'>Instagram : @sagacity</li>
                         
