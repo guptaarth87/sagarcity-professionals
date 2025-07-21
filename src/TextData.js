@@ -109,7 +109,7 @@ export const whyChooseus = [
 
 export const ContactInfo = {
     name : "Sagacity Professionals",
-    phoneNo: "+91-7415076777",
+    phoneNo: "+91-9039333501",
     email : "hi@sagacityprofessionals.com",
     linkedIn : "https://www.linkedin.com/company/sagacity-professionals/"
 }

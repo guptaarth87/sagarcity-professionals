@@ -53,7 +53,7 @@ Follow the instructions on the payment gateway to complete your generous contrib
 
 Your donation will go directly towards supporting the initiatives and activities associated with the selected drive. Every contribution, no matter the size, makes a meaningful impact on the lives of those we aim to help.
 <br></br>
-Thank you for your support and commitment to making a positive difference with Towards Happiness. If you encounter any issues or have further questions, feel free to contact us at+91 1212121212.
+Thank you for your support and commitment to making a positive difference with Towards Happiness. If you encounter any issues or have further questions, feel free to contact us at +91 9039333501.
 
 
 
@@ -84,7 +84,7 @@ Direct message us on any of these platforms, providing a detailed description of
 <br></br>
 Alternatively, you can reach out to us directly via phone:
 <br></br>
-Phone No: +91 7879069987<br></br>
+Phone No: +91 9039333501<br></br>
 Our team is committed to addressing issues promptly and providing the necessary support for the causes we champion. Your engagement is crucial in helping us create positive change, and we appreciate your proactive approach in reporting issues or seeking assistance.
 <br></br>
 Thank you for being a part of Towards Happiness, and we look forward to working together to make a meaningful impact.
